@@ -27,7 +27,6 @@ const App = () => {
           className="search-button"
           type="submit">Search</button>
       </form>
-      <h1 onClick={() => setCounter(counter + 1)}>{counter}</h1>
     </div>
 
 
