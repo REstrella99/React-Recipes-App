@@ -4,11 +4,11 @@ import './App.css';
 
 const App = () => {
 
-  const APP_ID = "ad8873c5";
-  const APP_KEY = "89c1d6870a4b62512c13706d1fad925d";
+  const APP_ID = "7ebe31e1";
+  const APP_KEY = "e3e4a2a969825b88484787db4cb34c7a";
 
-  useEffect( () => {
-    
+  useEffect(() => {
+
   }, []);
 
   const getRecipes = async () => {
