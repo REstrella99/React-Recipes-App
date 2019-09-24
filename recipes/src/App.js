@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import Recipe from './recipe.js';
 
-
 const App = () => {
 
   const APP_ID = "7ebe31e1";
@@ -21,6 +20,7 @@ const App = () => {
     );
     const data = await response.json();
     setRecipes(data.hits);
+    console.log(data.hits);
   };
 
 
@@ -35,7 +35,7 @@ const App = () => {
       {recipes.map(recipe => (
         <Recipe />
       ))}
-      ;
+
     </div>
 
 
