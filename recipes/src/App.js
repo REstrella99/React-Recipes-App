@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Recipe from './Recipe';
+import Recipe from './recipe.js';
 
 const App = () => {
 
